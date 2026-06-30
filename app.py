@@ -384,17 +384,7 @@ if analyze:
         # ------------------------------------------
 
         st.subheader("🤖 Gemini AI Feedback")
-
-        with st.spinner("Generating AI Feedback..."):
-
-            feedback = generate_feedback(
-                reference_text=reference_text,
-                student_text=transcript,
-                similarity_score=similarity
-            )
-
-        st.markdown(feedback)
-        
+        st.info("Gemini temporarily disabled for testing.")
         data = {
 
             "transcript": transcript,
@@ -421,7 +411,7 @@ if analyze:
 
             "grade": score["Grade"],
 
-            "gemini_feedback": feedback
+            "gemini_feedback": "Gemini Disabled"
 
         }
 
