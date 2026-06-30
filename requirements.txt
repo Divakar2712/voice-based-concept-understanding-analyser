@@ -1,0 +1,14 @@
+streamlit
+faster-whisper
+torch
+sentence-transformers
+scikit-learn
+librosa
+soundfile
+numpy
+matplotlib
+reportlab
+google-generativeai
+python-dotenv
+sqlalchemy
+pandas
